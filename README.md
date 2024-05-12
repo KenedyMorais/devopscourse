@@ -8,3 +8,8 @@ Desafio 01 (mySql):
 ```
 docker container run -d -p 3306:3306 -e MYSQL_DATABASE="docker_db" -e MYSQL_USER="docker_usr" -e MYSQL_PASSWORD="docker_pwd" mysql
 ```
+
+Desafio 03 (mongodb):
+```
+docker container run -d -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME="mongo_usr" -e MONGO_INITDB_ROOT_PASSWORD="mongo_pwd" mongo
+```
